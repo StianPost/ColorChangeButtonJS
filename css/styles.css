@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.colorBtnContainer {
+  display: block;
+}
+.colorBtn {
+  width: 100%;
+  height: 75px;
+  border: black 4px solid;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.colorBtn:hover {
+  background-color: white;
+  color: black;
+}
